@@ -537,8 +537,8 @@ function loop(){
   // //  var diff = airplane.mesh.position.distanceTo(c.mesh.position)
   //   //console.log(diff)
   // }
-// tween = TweenMax.to(scene, 2, {background:ColorPallet.red, repeat:10, yoyo:true, onRepeat:onRepeat, repeatDelay:0.5, ease:Linear.easeNone});
-//   TweenMax.to(scene, 2, { background: ColorPallet.red });
+  tween = TweenMax.to(scene, 2, {background:ColorPallet.red, repeat:10, yoyo:true, onRepeat:onRepeat, repeatDelay:0.5, ease:Linear.easeNone});
+    TweenMax.to(scene, 2, { background: ColorPallet.red });
 
 }
 

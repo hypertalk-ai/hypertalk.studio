@@ -35,7 +35,8 @@ body {
     line-height: 1.4;
     height: 100%;
     text-align: center;
-}
+    background-color: #2b2b2b;
+  }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -228,6 +229,10 @@ hr {
     border: none;
 }
 
+.social-icons{
+  padding-top: 1em;
+}
+
 hr:before {
     content: " ";
     position: absolute;
@@ -239,7 +244,7 @@ hr:before {
 }
 
 a img {
-    background: white;
+    background:#2b2b2b;
 }
 
 .odd a img {
@@ -250,7 +255,7 @@ a img {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Library 3 am";
     font-weight: 300;
-    color: #333;
+    color: #c0392b;
 }
 
 
